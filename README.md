@@ -7,6 +7,14 @@
 
 [![Twitter Follow](https://img.shields.io/twitter/follow/pedrolamas?style=social)](https://twitter.com/pedrolamas '@pedrolamas')
 
+Simple Docker image running [nginx-quic](https://hg.nginx.org/nginx-quic).
+
+This repo will run a GitHub action every hour to check for a new nginx release, and creates a new Docker image if it finds one.
+
+## Usage
+
+Just follow the instructions from the [official nginx docker image](https://hub.docker.com/_/nginx/), replacing the image name "nginx" with "ghcr.io/pedrolamas/nginx-quic"
+
 ## License
 
 MIT
